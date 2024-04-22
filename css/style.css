@@ -1,43 +1,47 @@
-#meuHeader {
+body{
+    min-height: 100vh;
+    background-color: red;
+}
+header {
     color: rgb(255, 255, 255);
-    background-color: rgb(200, 222, 243);
-    text-align: center;
-    min-height: 150px;
-    padding-top: 50px;
+    background-color: rgb(150, 185, 219);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #paragrafo{
     color: rgb(255, 255, 255);
-    padding-top: 10px;   
     font-size: 1.2em;
 }
 
-#meuMain{
+main{
     color: rgb(255, 255, 255);
     background-color: rgb(12, 41, 69);
-    text-align: center;
-    min-height: 639px;
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+img{
+    margin-bottom: 15px;
 
 }
-#meuFooter{
+footer{
 
     color: rgb(255, 255, 255);
-    background-color: rgb(200, 222, 243);
-    text-align: center;
-    min-height: 150px;
-    
-
+    background-color: rgb(150, 185, 219);
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #legendaImg{
-    padding-top: 30px;
     font-size: 1.2em;
 
-}
-li{
-    padding-top: 60px;
-    font-size: 1.5em;
-}
-li p{
-    color: black;
 }
